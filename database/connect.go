@@ -29,6 +29,5 @@ func ConnectDB() {
 	DB.AutoMigrate(&model.RolePermission{})
 	DB.AutoMigrate(&model.RefreshToken{})
 	//
-	DB.AutoMigrate(&model.Product{})
 	fmt.Println("Database Migrated")
 }
